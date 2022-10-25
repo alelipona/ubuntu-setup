@@ -1,18 +1,23 @@
 #!/bin/bash
+# adduser xxx
+# usermod -aG sudo xxx
+# su - xxx
+
+
 # text editing
-sudo apt install -y vim sed
+# sudo apt install -y vim sed
 
 # file system tools
-sudo apt install -y ack-grep tree
+#sudo apt install -y ack-grep tree
 
 # system monitoring
-sudo apt install -y ncdu htop
+#sudo apt install -y ncdu htop
 
 # internet
 sudo apt install -y wget curl whois
 
 # terminal system tools
-sudo apt install -y terminator ssh rsync
+#sudo apt install -y terminator ssh rsync
 
 # Password Safety
 sudo apt install -y passwdqc
